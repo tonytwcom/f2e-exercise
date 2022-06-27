@@ -1,0 +1,26 @@
+* {
+  background: #dde5b6;
+  color: #000;
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.csslink {
+  border: 10px double #A98467;
+  margin: 50px;
+  padding-left: 100px;
+  line-height: 2;
+  font-size: 2rem;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #f0ead2;
+  background: #6c584c;
+  padding: 1px 10px;
+}
