@@ -1,0 +1,38 @@
+* {
+  background: #111;
+  margin: 0;
+  padding: 0;
+  color: wheat;
+  
+}
+
+
+html{
+    font-size: 30px;
+}
+
+.box {
+  border: 5px double red;
+  font-size: 30px;
+}
+
+.child {
+  font-size: 40px;
+}
+
+.text1 {
+  font-size: 32px;
+  border-color: yellow;
+}
+.text2 {
+  font-size: 2em;
+  border-color: blueviolet;
+}
+.text3 {
+  font-size: 2rem;
+  border-color: palegreen;
+}
+.text4 {
+  font-size: 2vw;
+  font-size: 2vh;
+}
