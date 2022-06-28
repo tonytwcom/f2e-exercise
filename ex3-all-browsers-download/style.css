@@ -10,7 +10,7 @@ h1 {
 }
 
 .csslink {
-  border: 10px double #A98467;
+  border: 10px double #a98467;
   margin: 50px;
   padding-left: 100px;
   line-height: 2;
@@ -23,4 +23,16 @@ a {
   color: #f0ead2;
   background: #6c584c;
   padding: 1px 10px;
+}
+
+a:hover,
+a:focus {
+  color: #f0ead2;
+  background: rgb(186, 83, 83);
+}
+
+a:active {
+  color: #f0ead2;
+  background: #a98467;
+  
 }
