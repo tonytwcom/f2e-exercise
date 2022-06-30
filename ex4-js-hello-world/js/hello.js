@@ -17,7 +17,7 @@ console.log("\nExp.3");
 let myString = "Good Morning ! How's your life treating you ?";
 let myColor = ["Red", "Gree", "Blue"];
 console.log("myString: " + myString);
-console.log("myString(19): " + myString.charAt(19)); // 取 index 19 的值。charAt ( 只能一個整數 )，代表 index 19
+console.log("myString(19): " + myString.charAt(19)); // 取 index 19 的值。charAt ( 只能是一個整數 )，代表 index 19
 console.log("myString.slice(1): " + myString.slice(1)); // 從 index 1 開始取字元最後
 console.log("myString.slice(-1): " + myString.slice(-1)); // 取最後 1 個字元
 console.log("myString.slice(-7): " + myString.slice(-7)); // 取最後 7 個字元
@@ -48,7 +48,6 @@ console.log(lowText.includes("cake"));
 
 // Exp.6
 // splite 用於字串的切割，並且回傳字串陣列
-// const animals=['Dog','Cat','Foxy', 'Lion'];
 console.log("\nExp.6");
 const animals = "Visual Stdio Code";
 console.log("Respect! I'm happy for you".split());
@@ -78,8 +77,12 @@ if (testScore >= 90) {
   grade = "B";
 } else if (testScore >= 70) {
   grade = "C";
-} else {
+} else if (testScore > 60) {
   grade = "D";
+} else if (testScore === 60) {
+  grade = " Respect !";
+} else {
+  grade = "E";
 }
 
 console.log("grade= " + grade);
@@ -100,11 +103,33 @@ switch (Math.floor(Math.random() * 10)) {
     console.log("No match");
 }
 
-// Exp.11
+// Exp.11 - Conditional (ternary) operator
 console.log("\nExp.11");
 let wifi = "Open Sesame";
 let toUser = true;
 let wifiAccess = toUser
   ? `Yes, we offer free Wi-Fi ( ${wifi} ) to user.`
-  : "Sorry, we don't provied the Wi-Fi";
+  : "Sorry, we don't provide the Wi-Fi";
 console.log(wifiAccess);
+
+// Exp.12 - Loop
+console.log("\nExp.12");
+
+// for (let i = 0; i < array.length; i++) {
+
+// }
+
+// Exp.13 - Functions
+console.log("\nExp.13");
+function sum(num1, num2) {
+  if (num2 === undefined) {
+    return num1 + num1;
+  }
+
+  return "sum is " + (num1 + num2);
+}
+
+console.log(sum());
+console.log(sum(5, 10));
+console.log(sum(5));
+
