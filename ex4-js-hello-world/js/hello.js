@@ -49,14 +49,17 @@ console.log(lowText.includes("cake"));
 // Exp.6
 // splite 用於字串的切割，並且回傳字串陣列
 // const animals=['Dog','Cat','Foxy', 'Lion'];
+console.log("\nExp.6");
 const animals = "Visual Stdio Code";
 console.log("Respect! I'm happy for you".split());
 console.log(animals.split(" "));
 
 // Exp.7
+console.log("\nExp.7");
 console.log(Math.random() * 10);
 
 // Exp.8
+console.log("\nExp.8");
 console.log(Math.floor(Math.random() * 4 + 1));
 console.log(Math.floor(Math.random() * 4 + 1));
 console.log(Math.floor(Math.random() * 4 + 1));
@@ -65,6 +68,7 @@ console.log(Math.floor(Math.random() * 4 + 1));
 console.log(Math.floor(2.1));
 
 // Exp.9
+console.log("\nExp.9");
 let testScore = 89;
 let grade;
 
@@ -81,6 +85,7 @@ if (testScore >= 90) {
 console.log("grade= " + grade);
 
 // Exp.10
+console.log("\nExp.10");
 switch (Math.floor(Math.random() * 10)) {
   case 1:
     console.log("1");
@@ -94,3 +99,12 @@ switch (Math.floor(Math.random() * 10)) {
   default:
     console.log("No match");
 }
+
+// Exp.11
+console.log("\nExp.11");
+let wifi = "Open Sesame";
+let toUser = true;
+let wifiAccess = toUser
+  ? `Yes, we offer free Wi-Fi ( ${wifi} ) to user.`
+  : "Sorry, we don't provied the Wi-Fi";
+console.log(wifiAccess);
