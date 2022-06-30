@@ -133,3 +133,31 @@ console.log(sum());
 console.log(sum(5, 10));
 console.log(sum(5));
 
+// Exp.14 - Scope
+console.log("\nExp.14");
+let num = 10;
+
+{
+  num = 100;
+}
+
+function add() {
+  let num = 20;
+  return num;
+}
+
+add();
+console.log("num= " + num);
+console.log(1);
+
+// Exp.15 - Arrow Functions
+console.log("\nExp.15");
+let arraws = (a,b) => a+b ;
+console.log(arraws(10,10));
+
+// Exp.16 - Array
+console.log("\nExp.16");
+myCar = ["BMW", "Tesla", "Banz", "Mazda", "Prosche", 100];
+console.log(myCar.map(item => item));
+
+
