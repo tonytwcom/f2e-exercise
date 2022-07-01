@@ -152,12 +152,45 @@ console.log(1);
 
 // Exp.15 - Arrow Functions
 console.log("\nExp.15");
-let arraws = (a,b) => a+b ;
-console.log(arraws(10,10));
+let arraws = (a, b) => a + b;
+console.log(arraws(10, 10));
 
 // Exp.16 - Array
 console.log("\nExp.16");
 myCar = ["BMW", "Tesla", "Banz", "Mazda", "Prosche", 100];
-console.log(myCar.map(item => item));
+console.log(myCar.map((item) => item));
 
+// Exp.17 - Objects
+console.log("\nExp.17");
+const myObj = { name: "Tony" };
+console.log(myObj);
 
+const anotherObj = {
+  alive: true,
+  answer: 18,
+  hobbies: ["Eat", "Sleep", "Code"],
+  beverage: {
+    morning: "Coffee",
+    afternoon: "Iced Tea",
+  },
+  actioon: function () {
+    return `Time for ${this.beverage.afternoon}`;
+  },
+};
+console.log(anotherObj.actioon());
+
+// Exp.18 - Objects 2
+console.log("\nExp.18");
+const band = {
+  voclas: "Robert Plant",
+  guitar: "Jimm Page",
+  bass: "John Paul Jones",
+  drums: "John Bonham",
+};
+
+console.log(Object.keys(band));
+console.log(Object.values(band));
+
+for (let job in band) {
+  console.log(`On ${job} , It's ${band[job]} !`);
+}
