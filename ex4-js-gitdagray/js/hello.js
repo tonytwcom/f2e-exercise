@@ -1,3 +1,4 @@
+
 // Exp1
 console.log("\nExp.1");
 // alert("Hello World");
@@ -157,7 +158,7 @@ console.log(arraws(10, 10));
 
 // Exp.16 - Array
 console.log("\nExp.16");
-myCar = ["BMW", "Tesla", "Banz", "Mazda", "Prosche", 100];
+let myCar = ["BMW", "Tesla", "Banz", "Mazda", "Prosche", 100];
 console.log(myCar.map((item) => item));
 
 // Exp.17 - Objects
@@ -188,9 +189,22 @@ const band = {
   drums: "John Bonham",
 };
 
-console.log(Object.keys(band));
+console.log(Object.keys(band));     // 使用 Object 呼叫 band 
 console.log(Object.values(band));
 
 for (let job in band) {
   console.log(`On ${job} , It's ${band[job]} !`);
 }
+
+
+// Exp.19 - JSON
+console.log("\nExp.19");
+
+
+// Exp.20 - Error and Error Handling
+console.log("\nExp.20");
+
+"use strict";  //放在第一行
+
+
+
