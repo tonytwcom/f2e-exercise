@@ -5,5 +5,7 @@ window.onload = function () {
     age: 6,
   };
   document.getElementById("demo").innerHTML = role;
- 
+  
+  
+  
 };
