@@ -1,11 +1,18 @@
-function fn_btn_textarea() {
-  document.getElementById("id_textarea").innerText = "Hello Anya";
+function printItemExp1() {
+  document.getElementById("exp1_textarea").innerText = "Hello Anya";
 }
 
-function fn_btn_p() {
-  document.getElementById("id_p").innerText = "Hello Anya";
+function printItemExp2() {
+  document.getElementById("exp2_p").innerText = "Hello Anya";
+  // document.getElementById('id_')
 }
 
 window.onload = function () {
-  //   document.getElementById("id_textarea").innerText = "Hello Anya";
+  const button = document.getElementById("exp3_btn");
+  button.addEventListener("click", printItemExp3);
+
+  function printItemExp3() {
+    document.getElementById("exp3_p").innerHTML +=
+      "<h3>addEventListener Enabled !! </h3>";
+  }
 };

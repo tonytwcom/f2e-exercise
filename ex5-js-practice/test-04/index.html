@@ -9,12 +9,13 @@
   </head>
   <body>
     <label for="id_input_add_num">只能相加的計算機</label>
-    <input type="text" id="id_input_num1" />
+    <input type="text" id="id_input_num1" name="" value="" />
     +
     <input type="text" id="id_input_num2" />
-    =
-    <input type="text" id="id_input_add_num" />
+    = <input type="text" id="id_input_sum_num" disabled />
 
-    <button>Count !</button>
+    <button onclick="fn_count()">Count !</button>
+    <button onclick="fn_clear()">Clear !</button>
+    <p id="id_p_show"></p>
   </body>
 </html>
