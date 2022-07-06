@@ -1,10 +1,9 @@
+
 function printItemExp1() {
   document.getElementById("exp1_textarea").innerText = "Hello Anya";
 }
-
 function printItemExp2() {
   document.getElementById("exp2_p").innerText = "Hello Anya";
-  // document.getElementById('id_')
 }
 
 window.onload = function () {
