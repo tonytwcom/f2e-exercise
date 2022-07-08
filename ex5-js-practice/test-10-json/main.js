@@ -19,7 +19,9 @@ window.onload = function () {
   console.log(person_data);
   document.getElementById("role_name").innerHTML = `姓名：${person_data.name}`;
   document.getElementById("role_age").innerHTML = `年齡：${person_data.age}`;
-  document.getElementById("role_city").innerHTML = `居住地：${person_data.city}`;
+  document.getElementById(
+    "role_city"
+  ).innerHTML = `居住地：${person_data.city}`;
 
   document.getElementById(
     "role_id"

@@ -1,0 +1,33 @@
+* {
+  background: #ebf2fa;
+  background: #14213d;
+  line-height: 2;
+  color: #14213d;
+}
+
+p {
+  font-size: 25px;
+  color: #e5e5e5;
+}
+
+h1 {
+  border: 2px dashed #ffffff;
+  width: 50%;
+  font-size: 3rem;
+  padding: 0.5em;
+}
+
+h1,
+h2 {
+  color: #ffffff;
+}
+
+.highlight {
+  background: #000000;
+  color: #fca311;
+}
+
+main {
+  border: 5px yellow dotted;
+  padding: 50px 11px;
+}
