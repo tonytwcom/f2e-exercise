@@ -1,0 +1,19 @@
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+  border-radius: 5px; /* 圓角 */
+  /* box-shadow: 5px 10px 18px #888888; */
+}
+
+.gradient-danger {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+.gradient-danger:hover {
+  background: linear-gradient(50deg, #6e8efb, #a777e3);
+  color: #333;
+}
+

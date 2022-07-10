@@ -1,14 +1,14 @@
 window.onload = function () {
-  const cars = ["Saab123", "Volvo", "BMW"];
+  const cars = ['Saab123', 'Volvo', 'BMW'];
 
   let y = 123;
-  let z = "123";
+  let z = '123';
 
   console.log(y == z);
   console.log(y === z);
 
-  const t1 = document.querySelector("p");
-  const t2 = document.querySelector("p");
+  const t1 = document.querySelector('p');
+  const t2 = document.querySelector('p');
   console.log(t1);
   console.log(t1);
   console.log(typeof t1);
@@ -16,7 +16,7 @@ window.onload = function () {
 
   // window.alert("Hello World");
   // console.log("Hello World");
-  document.getElementById("myId").innerHTML = "Hello ID";
+  document.getElementById('myId').innerHTML = 'Hello ID';
   // document.getElementsByClass("myClass").innerHTML = "Hello Class";
 
   let a = 10,
@@ -26,7 +26,7 @@ window.onload = function () {
   console.log(typeof b.toString());
 
   console.log(typeof a.valueOf());
-  console.log(typeof Boolean(a > b).valueOf()); 
+  console.log(typeof Boolean(a > b).valueOf());
 
   // let count = document.getElementsByClassName("myClass");
 
