@@ -1,9 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 p {
   color: burlywood;
   font-size: 20px;
-  background: rgb(50, 68, 181); 
-} 
+  background: rgb(50, 68, 181);
+}
 
+nav {
+  background: #000;
+  text-align: center;
+}
 
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  display: inline-block;
+  padding: 18px 20px;
+  font-size: 20px;
+  transition: 0.5s;
+}
 
-
+nav a:hover {
+  background-color: #fa0;
+}
