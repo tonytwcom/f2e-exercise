@@ -126,13 +126,18 @@ table {
   margin: 0;
   padding: 0;
 } */
+.wrap {
+  width: 600px;
+  margin: auto;
+  border: 1px solid red;
+}
 
 .box {
-  width: 600px;
+  width: 576px;
   /* background-color: #ffa; */
   height: 500px;
   margin: auto;
-  /* border: 1px solid red; */
+  border: 1px solid blue;
   /*color: #fa0;
   font-size: 20px;
   line-height: 1.5;
@@ -145,6 +150,7 @@ table {
   border: 1px solid #aaa;
   background-color: #fff;
   margin: 10px;
+
   padding: 10px;
   /* width: 200px;
   height: 250px;

@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 960px;
+  border: 1px solid #000;
+  margin: auto;
+}
+
+.col {
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+  background-color: #eee;
+}
