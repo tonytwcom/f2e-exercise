@@ -1,0 +1,78 @@
+html {
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  background-color: black;
+  opacity: 0.9;
+  padding: 6px 10px;
+}
+
+.logo {
+  display: flex;
+
+  border: 1px solid gold;
+  line-height: 52px;
+}
+
+.header nav {
+  width: 100%;
+  text-align: right;
+  font-size: 0;
+  padding: 100px, 10px;
+  /* border: 1px solid red; */
+}
+
+.header nav a {
+  font-size: 16px;
+  text-decoration: none;
+  color: aliceblue;
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 52px; /* 還能更好 */
+  /* transition: 0.5s; */
+}
+
+.header nav a:hover {
+  background-color: #fa0;
+  /* opacity: 0.5; */
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  /* height: 250px; */
+}
+
+ul {
+  display: flex;
+}
+
+.path {
+    d
+}
+.wrap {
+  display: flex;
+  margin: auto;
+}
+
+.item {
+  width: 300px;
+  text-align: justify;
+  border: 1px solid #aaa;
+  margin: 5px 10px;
+  padding: 10px;
+}
+
+.all-control {
+  margin: 5px;
+}
+
+.about {
+  display: flex;
+}
