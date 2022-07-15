@@ -1,0 +1,47 @@
+.banner img {
+  width: 100%;
+}
+
+img {
+  display: block;
+}
+
+.item {
+  width: 100%;
+  /* border: 1px solid red; */
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 30px 0;
+}
+
+.tetle {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.footer {
+  background: #000;
+  color: #aaa;
+  text-align: center;
+  line-height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .banner img {
+    object-fit: cover;
+    height: 380px;
+  }
+  .item-group {
+    display: flex;
+  }
+  .item-group2 {
+    display: flex;
+  }
+}
