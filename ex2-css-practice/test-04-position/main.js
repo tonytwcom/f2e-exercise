@@ -6,3 +6,6 @@ window.onload = function () {
         ).innerHTML += `<div class="box box${i}">${i}</div>`;
     }
 };
+
+var foo = "i'm a lasagna hog".split('').reverse().join('');
+console.log(foo);

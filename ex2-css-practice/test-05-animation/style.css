@@ -1,0 +1,81 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background: #aaf;
+    border: 1px solid #333;
+    color: #333;
+    text-align: center;
+    margin: none;
+    padding: none;
+    display: auto;
+    position: relative;
+    /* animation: framesName endSecond infinite */
+
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+    /* animation: identifier 4s infinite; */
+    animation: identifier 4s infinite alternate;
+}
+
+.container {
+    width: 550px;
+    height: 550px;
+    border: 1px solid #000;
+}
+
+/* @keyframes identifier {
+    from {
+    }
+    50% {
+    }
+    to {
+    }
+}*/
+@keyframes identifier {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        top: 500px;
+        left: 0px;
+    }
+    50% {
+        top: 500px;
+        left: 500px;
+    }
+    75% {
+        top: 0px;
+        left: 500px;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.box1 {
+    position: absolute;
+    /* animation-delay: 0s; */
+    /*  */
+}
+
+.box2 {
+    position: absolute;
+
+    /* animation: identifier 2s infinite; */
+}
+
+.box3 {
+    position: absolute;
+    /* animation-delay: 1s; */
+    /* animation: identifier 3s infinite; */
+}
+
+.box4 {
+    position: absolute;
+    animation-delay: 10s;
+    /* animation: identifier 10s infinite; */
+}
