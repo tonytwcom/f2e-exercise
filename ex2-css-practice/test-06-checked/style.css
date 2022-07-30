@@ -1,0 +1,10 @@
+/* input:checked ~ p {
+    color: red;
+} */
+span {
+    display: block;
+}
+
+p span {
+    color: blue;
+}
