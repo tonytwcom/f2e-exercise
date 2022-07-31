@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title></title>
+        <link rel="stylesheet" href="../reset.css" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js"></script>
+        <style>
+            * {
+                list-style: none;
+            }
+
+            .wrap {
+                width: 100%;
+                display: flex;
+            }
+            .item {
+                width: 25%;
+                position: relative;
+            }
+
+            .item img {
+                width: 100%;
+                vertical-align: middle;
+            }
+
+            .item .item-txt {
+                position: absolute;
+                padding: 20px;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.6);
+                line-height: 1.6;
+                display: flex;
+                flex-direction: column;
+                justify-content: center; /* 水平對齊*/
+                /*align-items: center; /*居中對齊*/
+                opacity: 0;
+                transition: opacity 0.5s;
+            }
+
+            .item:hover .item-txt {
+                opacity: 1;
+            }
+
+            .item h2 {
+                color: #ff0;
+                font-size: 2rem;
+            }
+
+            .item h2::after {
+                content: ' ';
+                width: 0%;
+                height: 1.5px;
+                display: block;
+                background-color: #ff0;
+                margin-bottom: 10px;
+            }
+
+            .item:hover h2:after {
+                width: 100%;
+                transition: width 0.3s 0.3s;
+            }
+            .item p {
+                color: wheat;
+                font-size: 0.3rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="item">
+                <img src="https://picsum.photos/300/200?random=1" />
+                <div class="item-txt">
+                    <h2>我是文字 1</h2>
+                    <p>
+                        國人主流，威脅理由是啊區域出租性質，查詢美元基地股份有限公司，地面得知會不會沉默出版社，理想湖口西方沒有什麼每個人丈夫
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://picsum.photos/300/200?random=2" />
+                <div class="item-txt">
+                    <h2>我是文字 2</h2>
+                    <p>
+                        國人主流，威脅理由是啊區域出租性質，查詢美元基地股份有限公司，地面得知會不會沉默出版社，理想湖口西方沒有什麼每個人丈夫
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://picsum.photos/300/200?random=3" />
+                <div class="item-txt">
+                    <h2>我是文字 3</h2>
+                    <p>
+                        國人主流，威脅理由是啊區域出租性質，查詢美元基地股份有限公司，地面得知會不會沉默出版社，理想湖口西方沒有什麼每個人丈夫
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://picsum.photos/300/200?random=4" />
+                <div class="item-txt">
+                    <h2>我是文字 4</h2>
+                    <p>
+                        國人主流，威脅理由是啊區域出租性質，查詢美元基地股份有限公司，地面得知會不會沉默出版社，理想湖口西方沒有什麼每個人丈夫
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
